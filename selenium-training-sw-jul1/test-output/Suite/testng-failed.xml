@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="pageobjectmodel.LoginTest">
+        <methods>
+          <include name="loginSuccess"/>
+          <include name="closeBrowser"/>
+          <include name="init"/>
+          <include name="loginFail"/>
+        </methods>
+      </class> <!-- pageobjectmodel.LoginTest -->
+      <class name="pageobjectmodel.AccountInformationTest">
+        <methods>
+          <include name="editAccountInfoTest"/>
+          <include name="closeBrowser"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- pageobjectmodel.AccountInformationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
