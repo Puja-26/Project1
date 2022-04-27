@@ -31,6 +31,7 @@ public class AlertEx {
 		// prompt alert
 		driver.findElement(By.name("prompt")).click();
 		Thread.sleep(3000);
+		 alert.dismiss();
 		alert.sendKeys("Hello");
 		alert.accept();
 
